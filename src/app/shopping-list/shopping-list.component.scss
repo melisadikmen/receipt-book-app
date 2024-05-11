@@ -1,0 +1,26 @@
+.container {
+    background: rgb(3, 0, 20);
+    background: linear-gradient(0deg, rgb(9, 3, 43) 0%, rgb(26, 47, 77) 35%, rgb(26, 47, 77) 35%, rgb(26, 47, 77) 35%);
+}
+
+.list {
+    position: relative;
+    width: 95%;
+    margin-left: 30px;
+
+    tr {
+        background-color: #394867;
+    }
+
+    th {
+        color: rgb(241, 241, 227);
+    }
+
+    td {
+        color: rgb(241, 241, 227);
+    }
+
+    button {
+        color: rgb(241, 241, 227);
+    }
+}

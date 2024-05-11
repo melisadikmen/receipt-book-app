@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "title-font";
+    src: url(./../home/BriemHand-VariableFont_wght.ttf);
+}
+
+.backg-img {
+    position: absolute;
+}
+
+.backg-foto {
+    width: 100%;
+    filter: blur(5px);
+    max-inline-size: 100%;
+    block-size: auto;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.baslik {
+    position: relative;
+    font-family: "title-font";
+    font-size: xx-large;
+    margin-top: 10rem;
+    font-style: italic;
+    letter-spacing: 5px;
+    font-weight: 700;
+}
+
+.logo {
+    z-index: 9999;
+
+    img {
+        width: 60px;
+
+    }
+}
+
+.menu {
+    margin-top: -3.5rem;
+    margin-left: 4rem;
+}
