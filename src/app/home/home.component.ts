@@ -2,7 +2,7 @@ import { ChangeDetectorRef, Component } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
 import { MatMenuModule } from '@angular/material/menu';
 import { MatButtonModule } from '@angular/material/button';
-import { YemekData } from '../yemek-data.const';
+import { YemekData } from '../../models/yemek-data.const';
 @Component({
     selector: 'app-home',
     standalone: true,

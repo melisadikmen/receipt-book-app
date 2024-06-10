@@ -1,0 +1,54 @@
+.container {
+    background: rgb(3, 0, 20);
+    background: linear-gradient(0deg, rgb(9, 3, 43) 0%, rgb(26, 47, 77) 35%, rgb(26, 47, 77) 35%, rgb(26, 47, 77) 35%);
+  }
+  
+  .yemekler {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+    margin-left: 15px;
+  }
+  
+  .card-image {
+    width: 380px;
+    height: 300px;
+    position: relative;
+  }
+  
+  .buton-icon {
+    position: absolute;
+    right: 2%;
+    top: 20%;
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
+    border: 0px solid #000000;
+  
+  }
+  
+  .buton-icon:hover {
+    mat-icon {
+      color: red;
+    }
+  }
+  .mat-mdc-mini-fab.mat-accent {
+    --mdc-fab-small-container-color: #000;
+  }
+  
+  .example-card {
+    background-color: #394867;
+  
+    button {
+      color: rgb(241, 241, 227);
+    }
+  }
+  
+  .titles {
+    mat-card-title {
+      color: rgb(241, 241, 227);
+    }
+    mat-card-subtitle {
+      color: rgb(241, 241, 227);
+    }
+  }

@@ -2,13 +2,12 @@ import { ChangeDetectorRef, Component } from '@angular/core';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { MatInputModule } from '@angular/material/input';
 import { MatFormFieldModule } from '@angular/material/form-field';
-import { RecipeDatas, ShoppingData, ShoppingListDatas, ShoppingModel, YemekData } from '../yemek-data.const';
 import { MatButtonModule } from '@angular/material/button';
-import { MainModel } from '../yemekDetails';
 import { MatDialog } from '@angular/material/dialog';
 import { ShoppingdialogComponent } from '../shoppingdialog/shoppingdialog.component';
 import { Router } from '@angular/router';
 import { MatIconModule } from '@angular/material/icon';
+import { ShoppingData, ShoppingListDatas, YemekData } from '../../models/yemek-data.const';
 
 
 @Component({

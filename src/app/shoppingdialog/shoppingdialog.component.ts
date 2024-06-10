@@ -1,8 +1,7 @@
 import { Component, Inject, Input } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogModule } from '@angular/material/dialog';
-import { ShoppingModel } from '../yemek-data.const';
-import { MainModel } from '../yemekDetails';
 import { MatButtonModule } from '@angular/material/button';
+import { ShoppingModel } from '../../models/yemekDetails';
 
 @Component({
   selector: 'app-shoppingdialog',

@@ -1,3 +1,6 @@
+import {RecipeModel} from "./yemekDetails"
+import { ShoppingModel } from "./yemekDetails"
+export { ShoppingModel }
 export const YemekData = {
     cokertme: "Çökertme kebabı yapımında; yarım kilo bifteyi ince ince jülyen şeklinde doğrayın. Doğradığınız biftekleri derin bir kaba alın. Et marinesi için; etlerin üzerine 1 adet küçük boy soğan ve 2 diş sarımsağı ince ince doğrayın. 4 yemek kaşığı zeytinyağı, 2 yemek kaşığı sirke, kekik ve kimyon koyun.Eliniz ile karıştırın.Kabın üzerini kapatıp, etleri en az 1 saat kadar marine edin. Domates sosu için; bir tava içine 1 yemek kaşığı zeytinyağı koyun.Üzerine 1 yemek kaşığı domates salçası ekleyip, 2 dk kadar kavurun.Ardından 3 adet rendelenmiş domatesi ve az miktar tuz ekleyin.Hazırladığınız sosu 5 dk kadar pişirip, ocaktan alın. Çökertme kebabının etleri için, geniş bir tavayı ocak üzerine alıp, ısıtın.Üzerine etleri koyun.Etler suyunu salıp, çekene kadar pişirin.Son olarak tuz ve baharatları ekleyip, 1 - 2 dk pişirin.",
     tavuk_kizartmasi: "Tencerede soslu tavuk yapımı için; öncelikle 1 kilo kemiksiz tavuk pirzolayı orta boy geniş bir kap içine koyun. Daha sonra küçük bir kase içine 1 yemek kaşığı soya sosu ve 1 yemek kaşığı ketçap koyun. Ardından 5 yemek kaşığı zeytinyağı, 2 diş ezilmiş sarımsak, 1 çay kaşığı kırmızı pul biber, 1 çay kaşığı kekik, 1 tatlı kaşığı kırmızı toz biber, yarım çay kaşığı karabiber, 1 çay kaşığı köri ve damak tadınıza göre tuz ekleyin.Daha sonra tüm sos malzemelerini iyice karıştırıp, tavuk pirzolalarının üzerine güzelce dökün. Tavuk etlerini sos ile beraber güzelce harmanlayın. Ardından kabın üzerini streç film ile kapatıp, bu şekilde tavuk etlerini 2 saat buzdolabında dinlenmeye bırakın.Dinlenen tavuk etlerini buzdolabından çıkartıp, geniş bir tencereyi ocak üzerine alıp, iyice ısıtın.Isınan tencerenin içine soslu tavuk pirzolalarını güzelce dizin.Tavuk etlerini yüksek ateş üzerinde alt tarafları hafifçe kızarana kadar pişirin.Daha sonra tavuk etlerini maşa yardımı ile ters çevirip, tencerenin kapağını kapatın.Tavuk pirzolaların diğer yüzlerini de orta kısık ateş üzerinde kızarana kadar pişirin.Son olarak tavuk etlerini tekrardan maşa yardımı ile ters çevirip, kısa bir süre daha pişirmeye devam edin.Hazırladığınız tencerede soslu tavuk kızartmasını sıcak olarak servis edebilirsiniz.",
@@ -58,17 +61,7 @@ export const RecipeDatas: RecipeModel[] = [
     { title: "İrmik Topları", subHeader: "Tatlı", imageUrl: "./../../assets/irmik-toplari.png", description: YemekData.irmik_toplari },
 ]
 
-export interface RecipeModel {
-    title: string;
-    subHeader: string;
-    imageUrl: string;
-    description: string;
-}
 
-export interface ShoppingModel {
-    title: string;
-    description: string;
-}
 export const ShoppingData = {
     cokertme: "500 gr biftek (3 dilim),3 adet orta boy patates, 5 yemek kaşığı yoğurt, 2 yemek kaşığı zeytinyağı, Tuz, kekik, kırmızı pul biber. Kızartmak için sıvıyağEt Marinesi İçin:1 adet küçük boy soğan, 2 diş sarımsak, 4 yemek kaşığı zeytinyağı, 2 yemek kaşığı sirke, Kekik, kimyon. Domates Sosu İçin:3 adet orta boy domates, 1 yemek kaşığı domates salçası, 1 yemek kaşığı zeytinyağı,Tuz",
     tavuk_kizartmasi: "1 kilo kemiksiz tavuk pirzola. Sosu İçin:1 yemek kaşığı soya sosu, 1 yemek kaşığı ketçap, 2 diş sarımsak, 5 yemek kaşığı zeytinyağı, 1 çay kaşığı kırmızı pul biber, 1 çay kaşığı kekik, 1 tatlı kaşığı kırmızı toz biber, 1/2 çay kaşığı karabiber,1 çay kaşığı köri,Tuz",
@@ -128,3 +121,5 @@ export const ShoppingListDatas: ShoppingModel[] = [
     { title: "Sufle", description: ShoppingData.sufle },
     { title: "İrmik Topları", description: ShoppingData.irmik_toplari },
 ]
+
+
